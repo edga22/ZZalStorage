@@ -1,0 +1,12 @@
+{
+  "name": "zzal-file-stream",
+  "version": "0.0.0",
+  "description": "ZZalFileStream",
+  "main": "server.js",
+  "author": {
+    "name": "yoo kang hyeon"
+  },
+  "dependencies": {
+    "formidable": "^1.1.1"
+  }
+}
