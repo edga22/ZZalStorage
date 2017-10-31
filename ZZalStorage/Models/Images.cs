@@ -10,6 +10,6 @@ namespace ZZalStorage.Models
         public int ID { get; set; }
         public string FileName { get; set; }
         public DateTime AddDate { get; set; }
-        public ICollection<string> Tags { get; set; }
+        public ICollection<Tag> Tags { get; set; }
     }
 }
