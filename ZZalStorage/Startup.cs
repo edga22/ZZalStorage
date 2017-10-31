@@ -42,8 +42,11 @@ namespace ZZalStorage
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
+                    name: "Home",
+                    template: "home/{controller=Home}/{action=Index}/{id?}");
+                routes.MapRoute(
                     name: "default",
-                    template: "{controller=Home}/{action=Index}/{id?}");
+                    template: "{controller=Main}/{action=Index}/{id?}");
             });
         }
     }

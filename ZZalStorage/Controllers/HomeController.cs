@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using ZZalStorage.Models;
 
 namespace ZZalStorage.Controllers
-{
+{    
     public class HomeController : Controller
     {
         public IActionResult Index()
