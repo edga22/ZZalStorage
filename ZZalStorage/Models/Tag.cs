@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace ZZalStorage.Models
 {
-    public enum Cat
+    public enum Cata
     {
         gif, action, emotion
     }
@@ -13,7 +13,7 @@ namespace ZZalStorage.Models
     public class Tag
     {
         public int ID { get; set; }    
-        public Cat? Cat { get; set; }
+        public Cata? Cata { get; set; }
         public string Name { get; set; }        
     }
 }

@@ -16,8 +16,8 @@ namespace ZZalStorage.Data
 
             var tags = new Tag[]
             {
-                new Tag{Cat=Cat.emotion,Name="LoL"},
-                new Tag{Cat=Cat.gif,Name="BlackBox"}
+                new Tag{ID=1,Cata=Cata.emotion,Name="LoL"},
+                new Tag{ID=2,Cata=Cata.gif,Name="BlackBox"}
             };
             foreach(Tag t in tags)
             {
